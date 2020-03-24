@@ -1,12 +1,13 @@
-# NgSchedule ![version][version-badge] ![License][license-badge] ![angular-badge][angular-badge]
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0.
+# NgSchedule ![version][version-badge] ![License][license-badge] ![Idioma][idioma] ![angular-badge][angular-badge]
 
 ### This project is an implementation of FullCalendar Component on Angular version 8
+
+![NgSchedule](./src/assets/imgs/ng-schedule.png)
 
 Please, give a ⭐ to the repo. It really motivates me to share more open source code.
 
 # Get Started
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0.
 
 ### Clone the repo
 ```
@@ -52,3 +53,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [version-badge]: https://img.shields.io/badge/version-1.0.0-blue.svg
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [angular-badge]: https://img.shields.io/badge/version-Angular%208.0-blueviolet
+[idioma]: https://img.shields.io/badge/idioma-Portugu%C3%AAs-800060

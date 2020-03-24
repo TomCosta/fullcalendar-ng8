@@ -22,6 +22,34 @@ $ cd ngschedule
 $ npm install
 ```
 
+## If necessary
+### Bootstrap
+````
+$ npm install bootstrap
+````
+#### Add to the `angular.json`
+````
+"styles": [
+     "node_modules/bootstrap/scss/bootstrap.scss",
+     "src/styles.scss",
+]
+````
+### Add Font Awesome 5 Icons Library
+````
+$ npm install @fortawesome/fontawesome-free-webfonts
+````
+#### Add to the `angular.json`
+````
+"styles": [
+      "node_modules/bootstrap/scss/bootstrap.scss",
+      "src/styles.scss",
+      "node_modules/@fortawesome/fontawesome-free-webfonts/css/fontawesome.css",
+      "node_modules/@fortawesome/fontawesome-free-webfonts/css/fa-regular.css",
+      "node_modules/@fortawesome/fontawesome-free-webfonts/css/fa-brands.css",
+      "node_modules/@fortawesome/fontawesome-free-webfonts/css/fa-solid.css"              
+]
+````
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

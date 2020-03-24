@@ -6,6 +6,20 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Please, give a ⭐ to the repo. It really motivates me to share more open source code.
 
+# Get Started
+
+### Clone the repo
+```
+$ git clone https://github.com/TomCosta/fullcalendar-ng8.git
+```
+### Go into the folder
+```
+$ cd ngschedule
+```
+### Install the dependencies
+```
+$ npm install
+```
 
 ## Development server
 

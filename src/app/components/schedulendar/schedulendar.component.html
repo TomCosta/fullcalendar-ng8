@@ -1,0 +1,25 @@
+
+<div class='limitSize app-top'>
+      
+    <div class='app-calendar' *ngIf="calendarVisible">
+        <!-- <button (click)="updateEvents()" id="updateEvents">Update events</button>
+        <button (click)="updateHeader()" id="updateHeader">Update header</button> -->
+        <full-calendar
+        *ngIf="options"
+        #fullcalendar
+        [editable]="true"
+        [locales]="locales"
+        [events]="calendarEvents"
+        [header]="options.header"
+        defaultView="dayGridMonth"
+        [weekends]="calendarWeekends"
+        [customButtons]="options.customButtons"
+        (eventDragStop)="eventDragStop($event)"
+        (eventClick)="eventClick($event)"
+        (dateClick)="dateClick($event)"
+        [plugins]="options.plugins"
+        (eventRender)="eventRender($event)"
+        ></full-calendar>
+    </div>
+
+</div>

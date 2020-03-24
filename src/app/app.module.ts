@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SchedulendarComponent } from './schedulendar/schedulendar.component';
+import { SchedulendarComponent } from './components/schedulendar/schedulendar.component';
+import { FullCalendarModule } from '@fullcalendar/angular'; // for FullCalendar!
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { SchedulendarComponent } from './schedulendar/schedulendar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FullCalendarModule // for FullCalendar!
   ],
   providers: [],
   bootstrap: [AppComponent]

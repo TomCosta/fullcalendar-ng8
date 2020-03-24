@@ -1,0 +1,15 @@
+.limitSize{
+    width: 50vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+.app-top {
+    margin-top: 3em;
+}
+
+.app-calendar {
+    margin: 0 auto;
+    max-width: 900px;
+}
+

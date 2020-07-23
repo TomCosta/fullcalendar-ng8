@@ -53,7 +53,7 @@ export class SchedulendarComponent implements OnInit {
 
   eventRender(model: any): void {
     // model.el.className += ......
-    model.el.innerHTML += '<span class="icon-close"></span>';
+    model.el.innerHTML += '<span style="font-size: 1rem; color: red;"> <i class="far fa-trash-alt"></i> </span>';
   }
 
   gotoPast() {
@@ -66,7 +66,7 @@ export class SchedulendarComponent implements OnInit {
     if (arg.dateStr!=undefined) {
       // add new event data. must create new array
       this.calendarEvents = this.calendarEvents.concat({ 
-        title: 'New Event',
+        title: 'Meu Event',
         start: arg.date,
         allDay: arg.allDay
       })
